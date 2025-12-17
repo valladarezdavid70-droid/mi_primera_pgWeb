@@ -1,6 +1,4 @@
-/* ----------------------------- */
-/* ESTILOS GENERALES */
-/* ----------------------------- */
+/*ESTILOS GENERALES*/
 
 body {
   margin: 0;
@@ -9,9 +7,7 @@ body {
   color: #8d6e63;
 }
 
-/* ----------------------------- */
-/* HEADER Y MENÚ */
-/* ----------------------------- */
+/*HEADER Y MENÚ*/
 
 header {
   background: linear-gradient(90deg, #8d6e63, #5d4037);
@@ -55,9 +51,7 @@ nav ul li a.activo {
   font-weight: bold;
 }
 
-/* ----------------------------- */
-/* SECCIONES DEL INDEX */
-/* ----------------------------- */
+/*SECCIONES DEL INDEX*/
 
 main {
   padding: 40px;
@@ -125,9 +119,7 @@ main {
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
-/* ----------------------------- */
-/* FOOTER */
-/* ----------------------------- */
+/*FOOTER*/
 
 footer {
   background-color: #3e2723;
@@ -154,4 +146,5 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+
 }
