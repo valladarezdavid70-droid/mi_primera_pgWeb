@@ -1,3 +1,50 @@
+/*HEADER Y MENÚ*/
+
+header {
+  background: linear-gradient(90deg, #8d6e63, #5d4037);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+nav ul li a:hover {
+  background-color: rgba(255,255,255,0.2);
+  transform: scale(1.05);
+}
+
+nav ul li a.activo {
+  background-color: #8d6e63;
+  font-weight: bold;
+}
+
+
+
+
 /*FORMULARIO DE PRESUPUESTO*/
 .formulario {
     background-color: #fff;
@@ -61,4 +108,35 @@
 .formulario button:hover {
     background-color: #3e2723;
     transform: scale(1.03);
+
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: #3e2723;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 50px;
+
+}
+
+footer img {
+  width: 32px;
+  margin: 0 12px;
+  transition: transform 0.3s ease;
+}
+
+footer img:hover {
+  transform: scale(1.2);
+}
+
+footer a {
+  color: #d7ccc8;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
